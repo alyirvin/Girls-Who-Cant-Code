@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="utf-8" />
+        <script src="script.js"></script>
+        <title>Testing Testing</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo"><img src="Girls_Who_Cant_Code.jpg" height="100%" width="100%"></div>
+            <div class="searchBar">
+                <form>
+                    <input type="text" name="search" placeholder="Search for Patient Records">
+                </form>
+            </div>
+        </div>
+        <div class="identifiers">
+            <div class="dead">DECEASED: 01/02/0001</div>
+            <div class="fullname">JOHN DOE</div>
+            <div class="id">ID: abc1234567890</div>
+            <div class="dob">DOB: 01/01/0001</div>
+            <div class="age">Age: 1 Day</div>
+            <div class="sex">Sex: M</div>
+            <div class="race">Race: White <br> Ethnicity: Non-Hispanic</div>
+            <div class="address">Most Recent Address: <br> 1234 House Dr. <br> Orlando, FL 32816</div>
+            <div class="allergies"><bold><mheader>Allergies:</mheader></bold><br>Shellfish [Ended] <br> Children <br> The Sins of Others</div>
+        </div>
+        <div class="summary"></div>
+        <div class="careplan">
+            <div class="medications">
+                <bold><mheader>Medications</mheader></bold>
+                <div class="dropDown" id="dropDown" onclick="dropMenu()"><span></span></div>
+                <br>
+                <div class="currentMeds">
+                    <table>
+                        <tr>
+                            <th>Drug Name</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                        </tr>
+                        <tr>
+                            <td>Anti Crazy Drug</td>
+                            <td>01/01/0001</td>
+                            <td class="center">~</td>
+                        </tr>
+                        <tr>
+                            <td>Anti Sad Drug</td>
+                            <td>01/01/0001</td>
+                            <td class="center">~</td>
+                        </tr>
+                        <tr>
+                            <td>Anti Angry Drug</td>
+                            <td>01/01/0001</td>
+                            <td>01/05/0001</td>
+                        </tr>
+                        <tr class="pastMed">
+                            <td>Heart Drug</td>
+                            <td>01/01/0001</td>
+                            <td>01/01/0001</td>
+                        </tr>
+                        <tr class="pastMed">
+                            <td>Lung Drug</td>
+                            <td>01/01/0001</td>
+                            <td>01/01/0001</td>
+                        </tr>
+                        <tr class="pastMed">
+                            <td>Liver Drug</td>
+                            <td>01/01/0001</td>
+                            <td>01/02/0001</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

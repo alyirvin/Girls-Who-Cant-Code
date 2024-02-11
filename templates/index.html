@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+        <meta charset="utf-8" />
+        <script src="../static/js/script.js"></script>
+        <title>Testing Testing</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo"><img src="../static/Girls_Who_Cant_Code.jpg" height="100%" width="100%"></div>
+            <div class="searchBar">
+                <form action="/chat" method="POST">
+                    <input type="text" id="query" name="query" placeholder="Search for Patient Records">
+                </form>
+            </div>
+        </div>
+        <div class="identifiers">
+            <div class="dead" id="deceased"></div>
+            <div class="fullname" id="full-name"></div>
+            <div class="id" id="id"></div>
+            <div class="dob" id="dob"></div>
+            <div class="age" id="age"></div>
+            <div class="sex" id="sex"></div>
+            <div class="race" id="race"></div>
+            <div class="ethnicity" id="ethnicity"></div>
+            <div class="address">Most Recent Address:</div>
+            <div class="address" id="addyL1" style="top: 52%"></div>
+            <div class="address" id="addyL2" style="top: 55%"></div>
+            <div class="allergies"><bold><mheader>Allergies:</mheader></bold></div>
+            <div class="allergies" id="allergy-list" style="top: 65%"></div>
+        </div>
+        <div class="summary">
+            <h3 style="position: absolute; top: -3%; left: 5%;">
+                Summary
+            </h3>
+            <div class="fileText" id="file-text"></div>
+        </div>
+        <div class="careplan">
+            <!-- <div class="container"> -->
+                <div class="medications">
+                    <bold>Medications</bold>
+                    <!-- <div class="dropDown" id="dropDownMed" onclick="dropMedMenu()" style="top: 3%"><span></span></div> -->
+                    <br>
+                        <table id="med-list">
+                            <tr>
+                                <th>Drug Name</th>
+                                <th>Start Date</th>
+                                <th>End Date</th>
+                            </tr>
+                        </table>
+                </div>
+                <div class="imaging">
+                    <bold>Imaging</bold>
+                    <!-- <div class="dropDown" id="dropDownImg" onclick="dropImgMenu()" style="top: 45%"><span></span></div> -->
+                    <br>
+                    <table id="img-list">
+                        <tr>
+                            <th style="padding-right: 50px;">Imaging Type</th>
+                            <th>Body Site</th>
+                            <th>Scan Date</th>
+                        </tr>
+                    </table>
+                </div>
+            <!-- </div> -->
+        </div>
+    </body>
+</html>

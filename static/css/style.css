@@ -1,0 +1,278 @@
+.navbar
+{
+    background-color: #d7fdfe;
+    /* background-color: #00cc66; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 17%;
+}
+
+.logo
+{
+    /* background-color: #00aaff; */
+    position: absolute;
+    left: 6%;
+    top: 4%;
+    width: 8lh;
+    height: 100%;
+}
+
+.searchBar
+{
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    /* border: solid 1pt red; */
+    width: 30%;
+}
+
+.searchBar form input
+{
+    width: 100%;
+    border-radius: 17px;
+    font-size: 20pt;
+    padding: 8px;
+    outline: 0;
+    border: 2px solid #ca95f3;
+    background-color: white;
+}
+
+body
+{
+    background-color: #0072ce;
+}
+
+.summary,
+.careplan,
+.identifiers
+{
+    background-color: #f5f5f5;
+    /* filter: drop-shadow(black 3px 5px 6px); */
+    border: solid black 1px;
+}
+
+.identifiers
+{
+    position: absolute;
+    left: 0;
+    top: 17%;
+    height: 83%;
+    width: 20%;
+}
+
+.fullname,
+.id,
+.dob,
+.age,
+.sex,
+.race,
+.ethnicity,
+.dead,
+.address,
+.allergies
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14pt;
+}
+
+.fullname
+{
+    top: 20%;
+    font-size: 22pt;
+    font-weight: bold;
+    width: 100%;
+}
+
+.id
+{
+    top: 24%;
+}
+
+.dob
+{
+    top: 30%;
+}
+
+.age
+{
+    top: 32.5%;
+}
+
+.sex
+{
+    top: 35.5%;
+}
+
+.race
+{
+    top: 40%;
+    text-align: center;
+}
+
+.ethnicity
+{
+    top: 43%;
+}
+
+.dead
+{
+    top: 10%;
+    font-size: 18pt;
+    width: 75%;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.address
+{
+    top: 49%;
+    width: 75%;
+    text-align: center;
+} 
+
+.allergies
+{
+    top: 62%;
+    width: 75%;
+    text-align: center;
+}
+
+.allergies mheader
+{
+    font-size: 16pt;
+}
+
+bold
+{
+    font-weight: bold;
+}
+
+.summary
+{
+    /* background-color: #f5f5f5; */
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    height: 83%;
+    width: 50%;
+    font-size: 22pt;
+}
+
+.fileText
+{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    top: 7%;
+    font-size: 18pt;
+}
+
+embed
+{
+    font-size: 50pt;
+    line-height: 1.5;
+}
+
+.careplan
+{
+    /* background-color: #333333; */
+    position: absolute;
+    top: 17%;
+    right: 0;
+    height: 83%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.medications,
+.imaging
+{
+    flex: 0 0 auto;
+}
+
+.medications
+{
+    font-size: 22pt;
+    width: 97%;
+    /* border: solid 2px green; */
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.dropDown
+{
+    position: absolute;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+
+}
+
+.dropDown span
+{
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    transform: rotate(-45deg);
+    margin: -10px;
+    cursor: pointer;
+}
+
+.medications table
+{
+    padding-top: 1%;
+    font-size: 16pt;
+    text-align: left;
+}
+
+.medications table tr td
+{
+    padding-right: 30px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.pastMed
+{
+    opacity: 0;
+}
+
+.imaging
+{
+    width: 97%;
+    font-size: 22pt;
+    /* border: solid 2px red; */
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.imaging table
+{
+    padding-top: 1%;
+    font-size: 16pt;
+    text-align: left;
+}
+
+.imaging table tr td
+{
+    padding-right: 50px;
+}
+
+.pastImg
+{
+    opacity: 0;
+}
+

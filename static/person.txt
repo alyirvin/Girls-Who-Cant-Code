@@ -1,0 +1,63 @@
+
+full_name
+Unnamed: 1
+birthdate deathdate
+ssn marital
+race
+ethnicity gender
+address
+city
+state
+zip allergy_codes all_allergies
+treatment_codes
+all_treatments
+all_reasons prescription_codes
+all_prescriptions devices_codes all_devices body_code all_body imaging_date image_code all_imaging sop_code all_sop meds_codes meds_start meds_stop all_meds med_res_codes all_med_reasons
+procedures_codes
+all_procedures
+procedure_codes
+all_procedures_res
+19
+Aleen595 Hand679
+8d413bca8cb8
+1975-06-17
+NaN
+999-17-8698
+M
+white
+nonhispanic
+F
+514 Kunze Meadow
+Wakefield
+Massachusetts
+NaN
+NaN
+NaN
+443402002, 53950000, 737471002
+Lifestyle education regarding hypertension, Minor surgery care management (procedure), Respiratory therapy
+, Acute bronchitis (disorder), Hypertension
+52, 113, 140
+Hep A
+adult, Influenza
+seasonal
+injectable
+preservative free, Td (adult) preservative free
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
